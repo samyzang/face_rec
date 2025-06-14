@@ -1,0 +1,41 @@
+{
+    "face_recognition": {
+        "faces_directory": "./faces",
+        "cache_file": "./face_encodings.pkl",
+        "confidence_threshold": 0.6,
+        "tolerance": 0.6,
+        "model": "hog",
+        "supported_formats": [".jpg", ".jpeg", ".png", ".bmp", ".tiff"],
+        "max_image_size": 1920,
+        "enable_caching": true,
+        "cache_expiry_days": 30
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "face_recognition.log",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "max_file_size_mb": 10,
+        "backup_count": 5,
+        "console_output": true
+    },
+    "performance": {
+        "batch_size": 50,
+        "max_faces_per_image": 20,
+        "timeout_seconds": 30,
+        "memory_limit_mb": 512
+    },
+    "security": {
+        "allowed_extensions": [".jpg", ".jpeg", ".png", ".bmp", ".tiff"],
+        "max_file_size_mb": 10,
+        "sanitize_filenames": true,
+        "validate_image_content": true
+    },
+    "output": {
+        "default_output_directory": "./output",
+        "annotation_color_known": [0, 255, 0],
+        "annotation_color_unknown": [0, 0, 255],
+        "annotation_thickness": 2,
+        "font_scale": 0.6,
+        "show_confidence": true
+    }
+}

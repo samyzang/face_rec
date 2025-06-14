@@ -1,5 +1,22 @@
-cmake
-dlib
-face_recognition
-numpy
-opencv-python
+# Core dependencies
+face-recognition>=1.3.0
+opencv-python>=4.5.0
+numpy>=1.21.0
+Pillow>=8.3.0
+
+# Data processing
+pandas>=1.3.0
+
+# Utilities
+pathlib2>=2.3.6; python_version<"3.4"
+
+# Optional: GPU acceleration (uncomment if using CUDA)
+# opencv-contrib-python>=4.5.0
+
+# Development dependencies (install with: pip install -r requirements-dev.txt)
+# pytest>=6.2.0
+# pytest-cov>=2.12.0
+# black>=21.0.0
+# flake8>=3.9.0
+# mypy>=0.910
+# pre-commit>=2.15.0
