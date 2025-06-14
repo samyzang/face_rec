@@ -6,7 +6,7 @@
 
 A production-ready facial recognition system built with Python, featuring comprehensive error handling, caching, logging, and professional-grade architecture.
 
-## 🚀 Features
+##  Features
 
 - **High-Performance Recognition**: Utilizes state-of-the-art face_recognition library
 - **Intelligent Caching**: Automatic encoding caching with staleness detection
@@ -19,7 +19,7 @@ A production-ready facial recognition system built with Python, featuring compre
 - **Face Management**: Add/remove faces dynamically
 - **Detailed Reporting**: Confidence scores and system statistics
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8 or higher
 - OpenCV 4.x
@@ -76,7 +76,7 @@ COPY . .
 CMD ["python", "face_recognition_system.py", "--help"]
 ```
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 facial-recognition/
@@ -94,7 +94,7 @@ facial-recognition/
 └── README.md
 ```
 
-## 🚦 Quick Start
+##  Quick Start
 
 ### 1. Prepare Known Faces
 
@@ -147,7 +147,7 @@ python face_recognition_system.py \
 python face_recognition_system.py --info
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### System Parameters
 
@@ -177,7 +177,7 @@ python face_recognition_system.py --info
 }
 ```
 
-## 📊 Performance Optimization
+##  Performance Optimization
 
 ### Model Selection
 
@@ -233,7 +233,7 @@ print(f"Processing time: {processing_time:.3f} seconds")
 print(f"Faces per second: {len(matches) / processing_time:.2f}")
 ```
 
-## 🔍 API Reference
+##  API Reference
 
 ### FaceRecognitionSystem Class
 
@@ -267,7 +267,7 @@ class FaceMatch:
     is_known: bool                              # Whether face is recognized
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -304,7 +304,7 @@ logging.getLogger('face_recognition_system').setLevel(logging.DEBUG)
 face_system = FaceRecognitionSystem()
 ```
 
-## 📈 Use Cases
+##  Use Cases
 
 ### Security Systems
 - Access control and authentication
@@ -340,7 +340,7 @@ def recognize_face():
     } for match in matches])
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please follow these guidelines:
 
@@ -370,25 +370,25 @@ pre-commit install
 python -m pytest tests/
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [face_recognition library](https://github.com/ageitgey/face_recognition) by Adam Geitgey
 - [dlib library](http://dlib.net/) for machine learning algorithms
 - OpenCV community for computer vision tools
 
-## 📞 Support
+##  Support
 
 For support and questions:
 
-- 📧 Email: support@ravenconsulting.com
-- 🐛 Issues: [GitHub Issues](https://github.com/RavenConsulting/facial-recognition/issues)
-- 📚 Documentation: [Wiki](https://github.com/RavenConsulting/facial-recognition/wiki)
+-  Email: support@ravenconsulting.com
+-  Issues: [GitHub Issues](https://github.com/RavenConsulting/facial-recognition/issues)
+-  Documentation: [Wiki](https://github.com/RavenConsulting/facial-recognition/wiki)
 
-## 🔄 Changelog
+##  Changelog
 
 ### Version 2.0.0 (Current)
 - Complete rewrite with professional architecture
@@ -409,4 +409,4 @@ For support and questions:
 
 ---
 
-*Built with ❤️ by Raven Consulting*
+*Built by Raven Consulting*
